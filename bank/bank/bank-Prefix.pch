@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'bank' target in the 'bank' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

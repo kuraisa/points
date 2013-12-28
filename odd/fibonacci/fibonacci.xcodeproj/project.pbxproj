@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3707F2871868178300FF0530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3707F2861868178300FF0530 /* Foundation.framework */; };
+		3707F28A1868178300FF0530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707F2891868178300FF0530 /* main.m */; };
+		3707F28E1868178300FF0530 /* fibonacci.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3707F28D1868178300FF0530 /* fibonacci.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3707F2801868178300FF0530 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3707F28E1868178300FF0530 /* fibonacci.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3707F2821868178300FF0530 /* fibonacci */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fibonacci; sourceTree = BUILT_PRODUCTS_DIR; };
+		3707F2861868178300FF0530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3707F2891868178300FF0530 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3707F28C1868178300FF0530 /* fibonacci-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fibonacci-Prefix.pch"; sourceTree = "<group>"; };
+		3707F28D1868178300FF0530 /* fibonacci.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = fibonacci.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3707F27F1868178300FF0530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3707F2871868178300FF0530 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3707F2771868178300FF0530 = {
+			isa = PBXGroup;
+			children = (
+				3707F2881868178300FF0530 /* fibonacci */,
+				3707F2851868178300FF0530 /* Frameworks */,
+				3707F2831868178300FF0530 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3707F2831868178300FF0530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3707F2821868178300FF0530 /* fibonacci */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3707F2851868178300FF0530 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3707F2861868178300FF0530 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3707F2881868178300FF0530 /* fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				3707F2891868178300FF0530 /* main.m */,
+				3707F28D1868178300FF0530 /* fibonacci.1 */,
+				3707F28B1868178300FF0530 /* Supporting Files */,
+			);
+			path = fibonacci;
+			sourceTree = "<group>";
+		};
+		3707F28B1868178300FF0530 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3707F28C1868178300FF0530 /* fibonacci-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3707F2811868178300FF0530 /* fibonacci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3707F2911868178300FF0530 /* Build configuration list for PBXNativeTarget "fibonacci" */;
+			buildPhases = (
+				3707F27E1868178300FF0530 /* Sources */,
+				3707F27F1868178300FF0530 /* Frameworks */,
+				3707F2801868178300FF0530 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fibonacci;
+			productName = fibonacci;
+			productReference = 3707F2821868178300FF0530 /* fibonacci */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3707F2791868178300FF0530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "BSA Univ21";
+			};
+			buildConfigurationList = 3707F27C1868178300FF0530 /* Build configuration list for PBXProject "fibonacci" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3707F2771868178300FF0530;
+			productRefGroup = 3707F2831868178300FF0530 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3707F2811868178300FF0530 /* fibonacci */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3707F27E1868178300FF0530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3707F28A1868178300FF0530 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3707F28F1868178300FF0530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3707F2901868178300FF0530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3707F2921868178300FF0530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fibonacci/fibonacci-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3707F2931868178300FF0530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fibonacci/fibonacci-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3707F27C1868178300FF0530 /* Build configuration list for PBXProject "fibonacci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3707F28F1868178300FF0530 /* Debug */,
+				3707F2901868178300FF0530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3707F2911868178300FF0530 /* Build configuration list for PBXNativeTarget "fibonacci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3707F2921868178300FF0530 /* Debug */,
+				3707F2931868178300FF0530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3707F2791868178300FF0530 /* Project object */;
+}

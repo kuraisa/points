@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'bignum' target in the 'bignum' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

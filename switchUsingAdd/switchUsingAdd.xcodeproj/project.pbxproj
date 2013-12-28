@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37E98B3C18683A750047A973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E98B3B18683A750047A973 /* Foundation.framework */; };
+		37E98B3F18683A750047A973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E98B3E18683A750047A973 /* main.m */; };
+		37E98B4318683A750047A973 /* switchUsingAdd.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 37E98B4218683A750047A973 /* switchUsingAdd.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37E98B3518683A750047A973 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				37E98B4318683A750047A973 /* switchUsingAdd.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37E98B3718683A750047A973 /* switchUsingAdd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = switchUsingAdd; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E98B3B18683A750047A973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37E98B3E18683A750047A973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37E98B4118683A750047A973 /* switchUsingAdd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "switchUsingAdd-Prefix.pch"; sourceTree = "<group>"; };
+		37E98B4218683A750047A973 /* switchUsingAdd.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = switchUsingAdd.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E98B3418683A750047A973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E98B3C18683A750047A973 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E98B2C18683A750047A973 = {
+			isa = PBXGroup;
+			children = (
+				37E98B3D18683A750047A973 /* switchUsingAdd */,
+				37E98B3A18683A750047A973 /* Frameworks */,
+				37E98B3818683A750047A973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37E98B3818683A750047A973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E98B3718683A750047A973 /* switchUsingAdd */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E98B3A18683A750047A973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37E98B3B18683A750047A973 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37E98B3D18683A750047A973 /* switchUsingAdd */ = {
+			isa = PBXGroup;
+			children = (
+				37E98B3E18683A750047A973 /* main.m */,
+				37E98B4218683A750047A973 /* switchUsingAdd.1 */,
+				37E98B4018683A750047A973 /* Supporting Files */,
+			);
+			path = switchUsingAdd;
+			sourceTree = "<group>";
+		};
+		37E98B4018683A750047A973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37E98B4118683A750047A973 /* switchUsingAdd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E98B3618683A750047A973 /* switchUsingAdd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E98B4618683A750047A973 /* Build configuration list for PBXNativeTarget "switchUsingAdd" */;
+			buildPhases = (
+				37E98B3318683A750047A973 /* Sources */,
+				37E98B3418683A750047A973 /* Frameworks */,
+				37E98B3518683A750047A973 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = switchUsingAdd;
+			productName = switchUsingAdd;
+			productReference = 37E98B3718683A750047A973 /* switchUsingAdd */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E98B2E18683A750047A973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "BSA Univ21";
+			};
+			buildConfigurationList = 37E98B3118683A750047A973 /* Build configuration list for PBXProject "switchUsingAdd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37E98B2C18683A750047A973;
+			productRefGroup = 37E98B3818683A750047A973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E98B3618683A750047A973 /* switchUsingAdd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E98B3318683A750047A973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E98B3F18683A750047A973 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37E98B4418683A750047A973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		37E98B4518683A750047A973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		37E98B4718683A750047A973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "switchUsingAdd/switchUsingAdd-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37E98B4818683A750047A973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "switchUsingAdd/switchUsingAdd-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E98B3118683A750047A973 /* Build configuration list for PBXProject "switchUsingAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E98B4418683A750047A973 /* Debug */,
+				37E98B4518683A750047A973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E98B4618683A750047A973 /* Build configuration list for PBXNativeTarget "switchUsingAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E98B4718683A750047A973 /* Debug */,
+				37E98B4818683A750047A973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37E98B2E18683A750047A973 /* Project object */;
+}

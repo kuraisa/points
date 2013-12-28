@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'odd' target in the 'odd' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
